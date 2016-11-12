@@ -1,0 +1,83 @@
+<!1DOCTYPE html> 
+<html> 
+    <head> 
+        <style> 
+            body { 
+                margin: 0; 
+                line-height: 0;
+            }
+            header { 
+                background-color: blue; 
+                height: 20vh; 
+                width: 100%;
+            }
+            
+            #logo { 
+                height: 16vh;   
+                margin: 2vh; 
+                position: fixed; 
+                top: 0; 
+                right: 10vh;
+                
+            }
+            
+            nav{
+                display: inline-block;
+                line-height: 20vh; 
+                vertical-align: middle; 
+                position: absolute; 
+                
+            }
+            
+            nav a {
+                color: yellow;
+                line-height: 20vh;
+                vertical-align: middle;
+            }
+            
+            .column { 
+                display: inline-block;
+                width: 50%;
+                min-height: 60vh;
+                box-sizing: border-box;
+                font-size: 5vh;
+                line-height: 60vh;
+                text-align: center; 
+                vertical-align: middle; 
+            }
+            
+            #left{ 
+                border-right: 1vw solid blue;
+            }
+            
+            #right{
+                border-left: 1vw solid blue;
+            }
+            
+            footer {
+                height: 20vh;
+                background-color: gray;
+            }
+        </style> 
+
+    </head> 
+    <body> 
+            <header>
+                <a href="layout.html"><img id="logo" src="http://placehold.it/300X200" /></a>
+            <nav>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Events</a>
+                </nav>
+                </header>
+            <div class="column" id="left">
+                <span>right Text</span>
+
+                <span>Left Text</span>
+            </div><!-- 
+            --><div class="column" id="right">
+            </div> 
+                <footer>
+                </footer>
+    </body>
+</html> 

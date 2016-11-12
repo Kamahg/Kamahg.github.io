@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<style> 
+			body{ 
+				margin: 0; 
+				vertical-align: top;
+			}
+			img{ 
+				width: 25vw; 
+				border: 1vw sold gray; 
+				padding: 1vw;  
+				margin: 10vw; 
+				background-color: red; 
+				border-radius: 10vw; OR border-radius: 50%;
+			}
+
+			span{ 
+				height: 50vh; OR border: 1vw solid gray; 
+				line-height: 10vh; 
+				font-size: 5vh; 
+				padding: 1vw; 
+			} 
+
+			div{ 	
+				display: inline-block;  <!—(Stand next to each other)—>  
+				height: 100vh; <!— full screen height —> 
+				width: 25; 
+				border: 1px solid black; <!—OR background-color: red; OR box-sizing: border-box; —> 
+			}
+
+
+		</style> 
+	</head> 
+	<body> 
+		<div>1</div> <!—(each on its own line, add a comment)—> 
+		<div>2</div> <!— 
+		—><div>3</div> <!—
+		—><div>4</div>
+		<br /> 
+		<br />
+		<br />
+
+		<img id=“image1” src=“http://placehold.it/200X200” /> 
+		<img id=“image2” src=“http://placehold.it/200X200” /> 
+		<br /> 
+		<span id=“span1”>Span 1</span> 
+		<span id=“span2”>Span 2</span> 
+		<span id=“span3”>This is a test, this is a test, this is a test.  This is a test.  This is a test. Normally on borders on spans.  </span>
+
+	</body> 
+</html> 
